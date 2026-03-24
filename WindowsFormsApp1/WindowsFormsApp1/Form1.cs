@@ -16,5 +16,15 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-    }
+
+        private void btn_ClickMe_Click(object sender, EventArgs e)
+        {
+            if (btn_ClickMe.Text=="按我一下")
+            btn_ClickMe.Text="我已被點擊了";
+            else if (btn_ClickMe.Text=="我已被點擊了")
+                btn_ClickMe.Text="按我一下";
+        }
+
+        
+        }
 }

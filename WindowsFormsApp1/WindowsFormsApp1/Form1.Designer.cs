@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.btn_ClickMe = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -43,11 +44,24 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "N13310004";
             // 
+            // btn_ClickMe
+            // 
+            this.btn_ClickMe.Font = new System.Drawing.Font("Lucida Handwriting", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ClickMe.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_ClickMe.Location = new System.Drawing.Point(56, 90);
+            this.btn_ClickMe.Name = "btn_ClickMe";
+            this.btn_ClickMe.Size = new System.Drawing.Size(143, 54);
+            this.btn_ClickMe.TabIndex = 1;
+            this.btn_ClickMe.Text = "按我一下";
+            this.btn_ClickMe.UseVisualStyleBackColor = true;
+            this.btn_ClickMe.Click += new System.EventHandler(this.btn_ClickMe_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(787, 459);
+            this.Controls.Add(this.btn_ClickMe);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -59,6 +73,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btn_ClickMe;
     }
 }
 
