@@ -36,5 +36,21 @@ namespace WindowsFormsApp1
             int sum=Int32.Parse(count)+1;
             lab_Counter.Text=sum.ToString();
         }
+
+        private void btnBigger_Click(object sender, EventArgs e)
+        {
+            new FormBtnBigger().Show();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string str=textBox1.Text;
+            label2.Text=str;
+        }
     }
 }

@@ -8,3 +8,4 @@ C:\Users\MEGAS\Desktop\CUI_CIASS_N13310004\WindowsFormsApp1\WindowsFormsApp1\obj
 C:\Users\MEGAS\Desktop\CUI_CIASS_N13310004\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\MEGAS\Desktop\CUI_CIASS_N13310004\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\MEGAS\Desktop\CUI_CIASS_N13310004\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\MEGAS\Desktop\CUI_CIASS_N13310004\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormBtnBigger.resources
