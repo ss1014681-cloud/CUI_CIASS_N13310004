@@ -38,6 +38,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnCalculator = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -67,7 +68,7 @@
             // btn_ChangeLabel
             // 
             this.btn_ChangeLabel.Font = new System.Drawing.Font("新細明體", 12F);
-            this.btn_ChangeLabel.Location = new System.Drawing.Point(42, 175);
+            this.btn_ChangeLabel.Location = new System.Drawing.Point(42, 171);
             this.btn_ChangeLabel.Name = "btn_ChangeLabel";
             this.btn_ChangeLabel.Size = new System.Drawing.Size(143, 23);
             this.btn_ChangeLabel.TabIndex = 2;
@@ -79,7 +80,7 @@
             // 
             this.lab_ChangLabel.AutoSize = true;
             this.lab_ChangLabel.Font = new System.Drawing.Font("新細明體", 12F);
-            this.lab_ChangLabel.Location = new System.Drawing.Point(218, 178);
+            this.lab_ChangLabel.Location = new System.Drawing.Point(247, 171);
             this.lab_ChangLabel.Name = "lab_ChangLabel";
             this.lab_ChangLabel.Size = new System.Drawing.Size(45, 16);
             this.lab_ChangLabel.TabIndex = 3;
@@ -108,9 +109,9 @@
             // 
             // btnBigger
             // 
-            this.btnBigger.Location = new System.Drawing.Point(42, 302);
+            this.btnBigger.Location = new System.Drawing.Point(200, 83);
             this.btnBigger.Name = "btnBigger";
-            this.btnBigger.Size = new System.Drawing.Size(170, 56);
+            this.btnBigger.Size = new System.Drawing.Size(128, 54);
             this.btnBigger.TabIndex = 6;
             this.btnBigger.Text = "按鈕放大";
             this.btnBigger.UseVisualStyleBackColor = true;
@@ -118,7 +119,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(309, 195);
+            this.button1.Location = new System.Drawing.Point(152, 309);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(137, 23);
             this.button1.TabIndex = 7;
@@ -128,7 +129,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(309, 158);
+            this.textBox1.Location = new System.Drawing.Point(42, 309);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 8;
@@ -137,17 +138,28 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(309, 124);
+            this.label2.Location = new System.Drawing.Point(305, 314);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(33, 12);
             this.label2.TabIndex = 9;
             this.label2.Text = "label2";
+            // 
+            // btnCalculator
+            // 
+            this.btnCalculator.Location = new System.Drawing.Point(344, 83);
+            this.btnCalculator.Name = "btnCalculator";
+            this.btnCalculator.Size = new System.Drawing.Size(124, 54);
+            this.btnCalculator.TabIndex = 10;
+            this.btnCalculator.Text = "計算機";
+            this.btnCalculator.UseVisualStyleBackColor = true;
+            this.btnCalculator.Click += new System.EventHandler(this.btnCalculator_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(787, 459);
+            this.Controls.Add(this.btnCalculator);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
@@ -177,6 +189,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnCalculator;
     }
 }
 
