@@ -39,6 +39,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnCalculator = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnMinus = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -154,11 +157,44 @@
             this.btnCalculator.UseVisualStyleBackColor = true;
             this.btnCalculator.Click += new System.EventHandler(this.btnCalculator_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(529, 175);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(11, 12);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "0";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(422, 217);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.TabIndex = 12;
+            this.btnAdd.Text = "加1";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // btnMinus
+            // 
+            this.btnMinus.Location = new System.Drawing.Point(562, 216);
+            this.btnMinus.Name = "btnMinus";
+            this.btnMinus.Size = new System.Drawing.Size(75, 23);
+            this.btnMinus.TabIndex = 13;
+            this.btnMinus.Text = "減1";
+            this.btnMinus.UseVisualStyleBackColor = true;
+            this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(787, 459);
+            this.Controls.Add(this.btnMinus);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnCalculator);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
@@ -190,6 +226,9 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnCalculator;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnMinus;
     }
 }
 

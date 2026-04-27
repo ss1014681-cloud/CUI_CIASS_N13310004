@@ -57,5 +57,26 @@ namespace WindowsFormsApp1
         {
             new FormCalculator().Show();
         }
-    }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+           String count = label3.Text;
+        int sum = Int32.Parse(count)+1;
+            label3.Text=sum.ToString();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            String count = label3.Text;
+            int sum = Int32.Parse(count)+1;
+            label3.Text=sum.ToString();
+        }
+
+        private void btnMinus_Click(object sender, EventArgs e)
+        {
+           String count = label3.Text;
+        int sum = Int32.Parse(count)-1;
+        label3.Text=sum.ToString();
+        }
+}
 }
