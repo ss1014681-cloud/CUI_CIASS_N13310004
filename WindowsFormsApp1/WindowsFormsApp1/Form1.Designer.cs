@@ -42,6 +42,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnMinus = new System.Windows.Forms.Button();
+            this.btn = new System.Windows.Forms.Button();
+            this.labCelsius = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.labFahrenheit = new System.Windows.Forms.Label();
+            this.btnConvert = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -93,7 +99,7 @@
             // 
             this.lab_Counter.AutoSize = true;
             this.lab_Counter.Font = new System.Drawing.Font("新細明體", 12F);
-            this.lab_Counter.Location = new System.Drawing.Point(218, 240);
+            this.lab_Counter.Location = new System.Drawing.Point(261, 240);
             this.lab_Counter.Name = "lab_Counter";
             this.lab_Counter.Size = new System.Drawing.Size(15, 16);
             this.lab_Counter.TabIndex = 5;
@@ -160,7 +166,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(529, 175);
+            this.label3.Location = new System.Drawing.Point(198, 380);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(11, 12);
             this.label3.TabIndex = 11;
@@ -169,7 +175,7 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(422, 217);
+            this.btnAdd.Location = new System.Drawing.Point(42, 375);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 12;
@@ -179,7 +185,7 @@
             // 
             // btnMinus
             // 
-            this.btnMinus.Location = new System.Drawing.Point(562, 216);
+            this.btnMinus.Location = new System.Drawing.Point(280, 375);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.Size = new System.Drawing.Size(75, 23);
             this.btnMinus.TabIndex = 13;
@@ -187,11 +193,70 @@
             this.btnMinus.UseVisualStyleBackColor = true;
             this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
             // 
+            // btn
+            // 
+            this.btn.Location = new System.Drawing.Point(490, 83);
+            this.btn.Name = "btn";
+            this.btn.Size = new System.Drawing.Size(123, 54);
+            this.btn.TabIndex = 20;
+            this.btn.Text = "攝氏華氏度";
+            this.btn.UseVisualStyleBackColor = true;
+            this.btn.Click += new System.EventHandler(this.btn_Click);
+            // 
+            // labCelsius
+            // 
+            this.labCelsius.AutoSize = true;
+            this.labCelsius.Location = new System.Drawing.Point(371, 223);
+            this.labCelsius.Name = "labCelsius";
+            this.labCelsius.Size = new System.Drawing.Size(45, 12);
+            this.labCelsius.TabIndex = 22;
+            this.labCelsius.Text = "攝氏(c):";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(438, 223);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.TabIndex = 25;
+            // 
+            // labFahrenheit
+            // 
+            this.labFahrenheit.AutoSize = true;
+            this.labFahrenheit.Location = new System.Drawing.Point(371, 278);
+            this.labFahrenheit.Name = "labFahrenheit";
+            this.labFahrenheit.Size = new System.Drawing.Size(44, 12);
+            this.labFahrenheit.TabIndex = 26;
+            this.labFahrenheit.Text = "華氏(f):";
+            // 
+            // btnConvert
+            // 
+            this.btnConvert.Location = new System.Drawing.Point(356, 218);
+            this.btnConvert.Name = "btnConvert";
+            this.btnConvert.Size = new System.Drawing.Size(75, 23);
+            this.btnConvert.TabIndex = 27;
+            this.btnConvert.Text = "轉換";
+            this.btnConvert.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(446, 314);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(149, 12);
+            this.label4.TabIndex = 28;
+            this.label4.Text = "請輸入華氏後按下轉換按鈕";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(787, 459);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.btnConvert);
+            this.Controls.Add(this.labFahrenheit);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.labCelsius);
+            this.Controls.Add(this.btn);
             this.Controls.Add(this.btnMinus);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.label3);
@@ -229,6 +294,12 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnMinus;
+        private System.Windows.Forms.Button btn;
+        private System.Windows.Forms.Label labCelsius;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label labFahrenheit;
+        private System.Windows.Forms.Button btnConvert;
+        private System.Windows.Forms.Label label4;
     }
 }
 

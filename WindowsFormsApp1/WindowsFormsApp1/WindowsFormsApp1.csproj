@@ -64,6 +64,12 @@
     <Compile Include="FormCalculator.Designer.cs">
       <DependentUpon>FormCalculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTemp.Designer.cs">
+      <DependentUpon>FormTemp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

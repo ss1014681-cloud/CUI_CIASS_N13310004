@@ -78,5 +78,10 @@ namespace WindowsFormsApp1
         int sum = Int32.Parse(count)-1;
         label3.Text=sum.ToString();
         }
-}
+
+        private void btn_Click(object sender, EventArgs e)
+        {
+            new FormTemp() .Show();
+        }
+    }
 }
