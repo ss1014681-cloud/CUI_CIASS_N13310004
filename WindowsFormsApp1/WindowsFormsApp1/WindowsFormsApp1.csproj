@@ -81,6 +81,9 @@
     <EmbeddedResource Include="FormCalculator.resx">
       <DependentUpon>FormCalculator.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormTemp.resx">
+      <DependentUpon>FormTemp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

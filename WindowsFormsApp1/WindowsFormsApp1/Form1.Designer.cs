@@ -43,11 +43,6 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnMinus = new System.Windows.Forms.Button();
             this.btn = new System.Windows.Forms.Button();
-            this.labCelsius = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.labFahrenheit = new System.Windows.Forms.Label();
-            this.btnConvert = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -56,7 +51,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label1.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(51, 39);
+            this.label1.Location = new System.Drawing.Point(51, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(134, 27);
             this.label1.TabIndex = 0;
@@ -203,59 +198,11 @@
             this.btn.UseVisualStyleBackColor = true;
             this.btn.Click += new System.EventHandler(this.btn_Click);
             // 
-            // labCelsius
-            // 
-            this.labCelsius.AutoSize = true;
-            this.labCelsius.Location = new System.Drawing.Point(371, 223);
-            this.labCelsius.Name = "labCelsius";
-            this.labCelsius.Size = new System.Drawing.Size(45, 12);
-            this.labCelsius.TabIndex = 22;
-            this.labCelsius.Text = "攝氏(c):";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(438, 223);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 25;
-            // 
-            // labFahrenheit
-            // 
-            this.labFahrenheit.AutoSize = true;
-            this.labFahrenheit.Location = new System.Drawing.Point(371, 278);
-            this.labFahrenheit.Name = "labFahrenheit";
-            this.labFahrenheit.Size = new System.Drawing.Size(44, 12);
-            this.labFahrenheit.TabIndex = 26;
-            this.labFahrenheit.Text = "華氏(f):";
-            // 
-            // btnConvert
-            // 
-            this.btnConvert.Location = new System.Drawing.Point(356, 218);
-            this.btnConvert.Name = "btnConvert";
-            this.btnConvert.Size = new System.Drawing.Size(75, 23);
-            this.btnConvert.TabIndex = 27;
-            this.btnConvert.Text = "轉換";
-            this.btnConvert.UseVisualStyleBackColor = true;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(446, 314);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(149, 12);
-            this.label4.TabIndex = 28;
-            this.label4.Text = "請輸入華氏後按下轉換按鈕";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(787, 459);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.btnConvert);
-            this.Controls.Add(this.labFahrenheit);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.labCelsius);
             this.Controls.Add(this.btn);
             this.Controls.Add(this.btnMinus);
             this.Controls.Add(this.btnAdd);
@@ -295,11 +242,6 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnMinus;
         private System.Windows.Forms.Button btn;
-        private System.Windows.Forms.Label labCelsius;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label labFahrenheit;
-        private System.Windows.Forms.Button btnConvert;
-        private System.Windows.Forms.Label label4;
     }
 }
 

@@ -16,5 +16,12 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void btnConvert_Click(object sender, EventArgs e)
+        {
+            double c = Convert.ToDouble(textBox1.Text);
+            double f = c*(9/5.0)+32;
+            labelResult.Text=f.ToString()+"F";
+        }
     }
 }
