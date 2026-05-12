@@ -19,10 +19,30 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int a = Int32.Parse(textBox1.Text);
-            int b = Int32.Parse(textBox2.Text);
-            int sum = a+b;
-            label3.Text = sum.ToString();
+            try
+            {
+                int[] numbers = new int[10];
+                numbers[0]=1;
+                numbers[1]=2;
+                MessageBox.Show(numbers[10].ToString());
+                int a = Int32.Parse(textBox1.Text);
+                int b = Int32.Parse(textBox2.Text);
+                int sum = a+b;
+                label3.Text = sum.ToString();
+            }/*catch(FormatException ex) {
+                
+                MessageBox.Show(ex.Message+"輸入的不可以是標點符號,請輸入整數");
+                    
+            }catch(IndexOutOfRangeException ex) 
+            {
+                MessageBox.Show(ex.Message+"你宣告的列陣暴掉了!");
+            }*/
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message+"輸入有問題 但我不知哪裡出");
+            }
+
         }
     }
+
 }
