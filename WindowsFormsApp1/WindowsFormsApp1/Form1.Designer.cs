@@ -43,6 +43,7 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnMinus = new System.Windows.Forms.Button();
             this.btn = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -150,7 +151,7 @@
             // 
             // btnCalculator
             // 
-            this.btnCalculator.Location = new System.Drawing.Point(344, 83);
+            this.btnCalculator.Location = new System.Drawing.Point(346, 83);
             this.btnCalculator.Name = "btnCalculator";
             this.btnCalculator.Size = new System.Drawing.Size(124, 54);
             this.btnCalculator.TabIndex = 10;
@@ -198,11 +199,22 @@
             this.btn.UseVisualStyleBackColor = true;
             this.btn.Click += new System.EventHandler(this.btn_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(634, 83);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(124, 54);
+            this.button2.TabIndex = 21;
+            this.button2.Text = "Timer";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1006, 585);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.btn);
             this.Controls.Add(this.btnMinus);
             this.Controls.Add(this.btnAdd);
@@ -242,6 +254,7 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnMinus;
         private System.Windows.Forms.Button btn;
+        private System.Windows.Forms.Button button2;
     }
 }
 

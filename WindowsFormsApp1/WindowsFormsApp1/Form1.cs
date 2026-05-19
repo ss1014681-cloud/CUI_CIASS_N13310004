@@ -83,5 +83,10 @@ namespace WindowsFormsApp1
         {
             new FormTemp() .Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new FormTiner().Show();
+        }
     }
 }
