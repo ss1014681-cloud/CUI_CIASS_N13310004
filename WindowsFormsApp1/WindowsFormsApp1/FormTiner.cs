@@ -19,9 +19,14 @@ namespace WindowsFormsApp1
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            int counter =Int32.Parse(labCounter.Text);
+            int counter =Int32.Parse(labCounter.Text.Replace("秒",""));
             counter+=1;//counter=counter+1;
-            labCounter.Text = counter.ToString();
+            labCounter.Text = counter.ToString()+"秒";
+        }
+
+        private void labCounter_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

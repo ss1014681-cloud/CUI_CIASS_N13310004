@@ -45,9 +45,10 @@
             this.labCounter.Font = new System.Drawing.Font("新細明體", 20F);
             this.labCounter.Location = new System.Drawing.Point(96, 28);
             this.labCounter.Name = "labCounter";
-            this.labCounter.Size = new System.Drawing.Size(25, 27);
+            this.labCounter.Size = new System.Drawing.Size(52, 27);
             this.labCounter.TabIndex = 0;
-            this.labCounter.Text = "0";
+            this.labCounter.Text = "0秒";
+            this.labCounter.Click += new System.EventHandler(this.labCounter_Click);
             // 
             // FormTiner
             // 
