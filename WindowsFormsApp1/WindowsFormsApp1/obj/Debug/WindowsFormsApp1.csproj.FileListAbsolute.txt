@@ -12,3 +12,5 @@ C:\Users\MEGAS\Desktop\CUI_CIASS_N13310004\WindowsFormsApp1\WindowsFormsApp1\obj
 C:\Users\MEGAS\Desktop\CUI_CIASS_N13310004\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormCalculator.resources
 C:\Users\MEGAS\Desktop\CUI_CIASS_N13310004\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormTemp.resources
 C:\Users\MEGAS\Desktop\CUI_CIASS_N13310004\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormTiner.resources
+C:\Users\MEGAS\Desktop\CUI_CIASS_N13310004\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormCheckBox.resources
+C:\Users\MEGAS\Desktop\CUI_CIASS_N13310004\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormLayout2.resources

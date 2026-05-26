@@ -88,5 +88,15 @@ namespace WindowsFormsApp1
         {
             new FormTiner().Show();
         }
+
+        private void FormCheckBox_Click(object sender, EventArgs e)
+        {
+            new FormCheckBox().Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new FormLayout2().Show();
+        }
     }
 }
