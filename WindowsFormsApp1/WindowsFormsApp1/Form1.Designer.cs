@@ -46,6 +46,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.CheckBox = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.Timer2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -231,11 +232,22 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // Timer2
+            // 
+            this.Timer2.Location = new System.Drawing.Point(634, 152);
+            this.Timer2.Name = "Timer2";
+            this.Timer2.Size = new System.Drawing.Size(124, 56);
+            this.Timer2.TabIndex = 24;
+            this.Timer2.Text = "Timer2";
+            this.Timer2.UseVisualStyleBackColor = true;
+            this.Timer2.Click += new System.EventHandler(this.Timer2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1006, 585);
+            this.Controls.Add(this.Timer2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.CheckBox);
             this.Controls.Add(this.button2);
@@ -281,6 +293,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button CheckBox;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button Timer2;
     }
 }
 

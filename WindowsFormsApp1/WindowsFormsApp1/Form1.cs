@@ -98,5 +98,10 @@ namespace WindowsFormsApp1
         {
             new FormLayout2().Show();
         }
+
+        private void Timer2_Click(object sender, EventArgs e)
+        {
+            new FormTimer2().Show();
+        }
     }
 }

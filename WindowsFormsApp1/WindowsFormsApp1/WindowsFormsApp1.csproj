@@ -82,6 +82,12 @@
     <Compile Include="FormTemp.Designer.cs">
       <DependentUpon>FormTemp.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTimer2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTimer2.Designer.cs">
+      <DependentUpon>FormTimer2.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTiner.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormTemp.resx">
       <DependentUpon>FormTemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTimer2.resx">
+      <DependentUpon>FormTimer2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTiner.resx">
       <DependentUpon>FormTiner.cs</DependentUpon>
