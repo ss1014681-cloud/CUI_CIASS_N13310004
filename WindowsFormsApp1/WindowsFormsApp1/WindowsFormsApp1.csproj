@@ -76,6 +76,12 @@
     <Compile Include="FormLayout2.Designer.cs">
       <DependentUpon>FormLayout2.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormOderMenu2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOderMenu2.Designer.cs">
+      <DependentUpon>FormOderMenu2.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTemp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormLayout2.resx">
       <DependentUpon>FormLayout2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOderMenu2.resx">
+      <DependentUpon>FormOderMenu2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTemp.resx">
       <DependentUpon>FormTemp.cs</DependentUpon>

@@ -15,3 +15,4 @@ C:\Users\MEGAS\Desktop\CUI_CIASS_N13310004\WindowsFormsApp1\WindowsFormsApp1\obj
 C:\Users\MEGAS\Desktop\CUI_CIASS_N13310004\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormCheckBox.resources
 C:\Users\MEGAS\Desktop\CUI_CIASS_N13310004\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormLayout2.resources
 C:\Users\MEGAS\Desktop\CUI_CIASS_N13310004\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormTimer2.resources
+C:\Users\MEGAS\Desktop\CUI_CIASS_N13310004\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormOderMenu2.resources
